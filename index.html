@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel MCQ Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="quiz-title">Quiz</h1>
+  <input type="file" id="file-input" accept=".xlsx" />
+  <div id="quiz-container"></div>
+  <div class="navigation">
+    <button id="prev-btn">Previous</button>
+    <span id="page-indicator"></span>
+    <button id="next-btn">Next</button>
+  </div>
+  <button id="submit-btn">Submit</button>
+  <div id="result"></div>
+
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
